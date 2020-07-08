@@ -1,0 +1,116 @@
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+  font-weight: bold;
+}
+
+.carousel-indicators li {
+  width: 7px;
+  height: 7px;
+  border-radius: 100%;
+}
+
+.carousel-caption {
+  margin-bottom: 5%;
+}
+
+
+@media (min-width: 376px) {
+
+  .d-sm-block {
+    display: block !important;
+  }
+
+}
+
+.row-ml-5 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.center {
+  font-weight: bold;
+}
+
+p {
+  font-size: small;
+  line-height: 1.5rem;
+}
+
+.cards {
+  margin: 0 auto;
+  padding: 0 50px 0 50px;
+  margin-top: 20px;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+  gap: 30px;
+  font-family: sans-serif;
+}
+
+.card {
+  border: none;
+  box-shadow: none;
+}
+
+.cardImage {
+  height: 160px;
+  width: 100%;
+  display: block;
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.cardInfo {
+  color: rgb(143, 138, 138);
+  text-align: center;
+  font-size: 11px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.far {
+  font-size: 11px;
+}
+
+.cardContent {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.button {
+  border-radius: 0.1rem;
+  background-color: white;
+  border: none;
+  border-bottom: 0.5px solid rgb(212, 210, 210);
+  margin-bottom: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.readMore {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination>li>a,
+.pagination>li>span {
+  border-radius: 50% !important;
+  margin: 0 8px;
+  color: black;
+  padding: 5px 9px;
+}
+
+.paginationRow {
+  margin: 50px 0 30px 0;
+  font-size: 13px;
+}
+
+.pagination a.active {
+  background-color: #3612fd;
+  color: white;
+}
+
